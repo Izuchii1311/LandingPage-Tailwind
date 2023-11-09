@@ -13,47 +13,163 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <!-- Hero Section Start -->
-    <section class="mt-32" id="home">
-        <div class="container">
+    <section class="pt-32 md:pt-12 lg:pt-12 xl:pt-12" id="home">
+        <div class="container overflow-hidden md:py-20 lg:py-20 xl:py-20">
             <div class="flex flex-wrap">
-                <div class="w-full lg:w-1/2 self-center ps-12">
+                <div class="w-full lg:w-1/2 self-center px-4 xl:px-12">
                     <!-- Text Header -->
-                    <p class="text-primary text-sm font-bold">100% SATISFACTION QUARANTEE</p>
-                    <h1 class="font-header font-black text-6xl mt-4">Find Your Perfect Tutor</h1>
-                    <p class="text-slate-800 text-xl mt-6">We help you find perfect tutor for 1-on-1 lessons.</p>
-                    <p class="text-slate-800 text-xl">It is completely free and private</p>
+                    <p class="text-primary text-sm font-bold text-center lg:text-start">100% SATISFACTION QUARANTEE</p>
+                    <h1 class="font-header font-black text-4xl mt-4 text-center lg:text-start md:text-6xl xl:text-7xl">Find Your Perfect Tutor</h1>
+                    <p class="text-slate-800 text-md mt-2 text-center md:text-lg lg:mt-4 lg:text-start lg:text-lg xl:mt-6">We help you find perfect tutor for 1-on-1 lessons.</p>
+                    <p class="text-slate-800 text-md text-center md:text-lg lg:text-start lg:text-lg">It is completely free and private</p>
 
                     <!-- Button -->
-                    <div class="flex flex-wrap mt-6 mb-20">
-                        <a href="" class="p-4 tracking-wide bg-primary rounded-full shadow-lg">Get Started</a>
+                    <div class="flex flex-wrap mt-6 mb-20 justify-center lg:justify-start">
+                        <a href="" class="p-4 tracking-wide bg-primary rounded-full shadow-lg border-2 border-slate-700 hover:bg-amber-300">Get Started</a>
                         <p class="p-4"><span class="ml-2">See how it works</span></p>
                     </div>
                 </div>
 
                 <!-- Image -->
-                <div class="w-full lg:w-1/2 self-center pe-12">
-                    <div class="flex flex-wrap justify-center">
-                        <img src="https://source.unsplash.com/220x220?teacher" class="me-4 rounded-l-full" alt="">
-                        <div class="relative">
-                            <img src="https://source.unsplash.com/220x220?artist" class="me-4 rounded-lg z-2" alt="">
-                            <div class="p-16 bg-yellow-300 absolute rounded-full -top-14 -right-14 -z-10"></div>
+                <div class="w-full lg:w-1/2 self-center px-4 xl:px-12">
+                    <div class="hidden md:block lg:block">
+                        <div class="flex flex-wrap justify-center">
+                            <img src="https://source.unsplash.com/220x220?teacher" class="me-4 rounded-l-full w-auto" alt="">
+                            <div class="relative">
+                                <img src="https://source.unsplash.com/220x220?artist" class=" rounded-lg z-2 w-auto" alt="">
+                                <div class="p-16 bg-yellow-300 absolute rounded-full -top-14 -right-14 -z-10 overflow-hidden"></div>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="flex flex-wrap mt-4 justify-center">
-                        <div class="relative">
-                            <img src="https://source.unsplash.com/220x220?influencer" class="me-4 rounded-lg" alt="">
-                            <div class="p-12 bg-yellow-300 absolute rounded-full -bottom-12 -left-14 -z-10"></div>
+                        <div class="flex flex-wrap mt-4 justify-center">
+                            <div class="relative">
+                                <img src="https://source.unsplash.com/220x220?influencer" class="me-4 rounded-lg w-auto" alt="">
+                                <div class="p-12 bg-yellow-300 absolute rounded-full -bottom-12 -left-14 -z-10 w-auto"></div>
+                            </div>
+                            <img src="https://source.unsplash.com/220x220?people" class="rounded-l-full" alt="">
                         </div>
-                        <img src="https://source.unsplash.com/220x220?people" class="me-4 rounded-l-full" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Hero Section End -->
+
+    <!-- Services Section Start -->
+    <div class="bg-secondary">
+        <div class="container py-6">
+            <div class="flex flex-wrap">
+                <div class="w-1/2 md:w-1/4 lg:w-1/4 self-center mb-4">
+                    <div class="text-center">
+                        <h1 class="text-white text-xl md:text-2xl lg:text-4xl xl:text-4xl font-bold">870</h1>
+                        <p class="text-white">Expert tutors</p>
+                    </div>
+                </div>
+                <div class="w-1/2 md:w-1/4 lg:w-1/4 self-center mb-4">
+                    <div class="text-center">
+                        <h1 class="text-white text-xl md:text-2xl lg:text-4xl xl:text-4xl font-bold">20,000+</h1>
+                        <p class="text-white">Hours tutored</p>
+                    </div>
+                </div>
+                <div class="w-1/2 md:w-1/4 lg:w-1/4 self-center mb-4">
+                    <div class="text-center">
+                        <h1 class="text-white text-xl md:text-2xl lg:text-4xl xl:text-4xl font-bold">298</h1>
+                        <p class="text-white">Subjects and courses</p>
+                    </div>
+                </div>
+                <div class="w-1/2 md:w-1/4 lg:w-1/4 self-center mb-4">
+                    <div class="text-center">
+                        <h1 class="text-white text-xl md:text-2xl lg:text-4xl xl:text-4xl font-bold">72,920</h1>
+                        <p class="text-white">Active Student</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="services pt-20 pb-32" id="services">
+        <div class="container">
+            <div class="mx-auto text-center mb-16">
+                <p class="text-primary font-bold text-sm">WHY CHOOSE US</p>
+                <h1 class="text-xl font-extrabold md:text-2xl lg:text-3xl">Benefits of online tutoring <br class="block"/>services with us</h1>
+            </div>
+
+            <div class="flex flex-wrap justify-center">
+                <div class="w-1/2 px-2 mb-4 lg:w-1/4 lg:px-4">
+                    <a href="" class="group">
+                        <div class="shadow-xl bg-white text-black
+                        hover:bg-blue-500 hover:text-white rounded-xl p-4">
+                                <!-- Icon -->
+                                <div class="w-10 h-10 shadow-lg bg-blue-500 group-hover:bg-white rounded-lg flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(0, 0, 0);">
+                                        <path class="fill-current text-white group-hover:text-blue-500" d="M7.08 11.25A4.84 4.84 0 0 1 8 9.05L4.43 5.49A9.88 9.88 0 0 0 2 11.25zM9.05 8a4.84 4.84 0 0 1 2.2-.91V2a9.88 9.88 0 0 0-5.76 2.43zm3.7-6v5A4.84 4.84 0 0 1 15 8l3.56-3.56A9.88 9.88 0 0 0 12.75 2zM8 15a4.84 4.84 0 0 1-.91-2.2H2a9.88 9.88 0 0 0 2.39 5.76zm3.25 1.92a4.84 4.84 0 0 1-2.2-.92l-3.56 3.57A9.88 9.88 0 0 0 11.25 22zM16 9.05a4.84 4.84 0 0 1 .91 2.2h5a9.88 9.88 0 0 0-2.39-5.76zM15 16a4.84 4.84 0 0 1-2.2.91v5a9.88 9.88 0 0 0 5.76-2.39zm1.92-3.25A4.84 4.84 0 0 1 16 15l3.56 3.56A9.88 9.88 0 0 0 22 12.75z"></path>
+                                    </svg>
+                                </div>
+                            <h3 class="mt-4 text-md font-bold md:text-lg lg:text-lg xl:text-lg">24 / 7 Tutor Availabilitity</h3>
+                            <p class="text-sm">Our tutors are always <br class="block"/> available to respond as quick <br class="block"/> as possible for you</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="w-1/2 px-2 mb-4 lg:w-1/4 lg:px-4">
+                    <a href="" class="group">
+                        <div class="shadow-xl bg-white text-black
+                        hover:bg-lime-500 hover:text-white rounded-xl p-4">
+
+                                <!-- Icon -->
+                                <div class="w-10 h-10 shadow-lg bg-lime-500 group-hover:bg-white rounded-lg flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(0, 0, 0);">
+                                        <path class="fill-current text-white group-hover:text-lime-500" d="M7.08 11.25A4.84 4.84 0 0 1 8 9.05L4.43 5.49A9.88 9.88 0 0 0 2 11.25zM9.05 8a4.84 4.84 0 0 1 2.2-.91V2a9.88 9.88 0 0 0-5.76 2.43zm3.7-6v5A4.84 4.84 0 0 1 15 8l3.56-3.56A9.88 9.88 0 0 0 12.75 2zM8 15a4.84 4.84 0 0 1-.91-2.2H2a9.88 9.88 0 0 0 2.39 5.76zm3.25 1.92a4.84 4.84 0 0 1-2.2-.92l-3.56 3.57A9.88 9.88 0 0 0 11.25 22zM16 9.05a4.84 4.84 0 0 1 .91 2.2h5a9.88 9.88 0 0 0-2.39-5.76zM15 16a4.84 4.84 0 0 1-2.2.91v5a9.88 9.88 0 0 0 5.76-2.39zm1.92-3.25A4.84 4.84 0 0 1 16 15l3.56 3.56A9.88 9.88 0 0 0 22 12.75z"></path>
+                                    </svg>
+                                </div>
+                            <h3 class="mt-4 text-md font-bold md:text-lg lg:text-lg xl:text-lg">24 / 7 Tutor Availabilitity</h3>
+                            <p class="text-sm">Our tutors are always <br class="block"/> available to respond as quick <br class="block"/> as possible for you</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="w-1/2 px-2 mb-4 lg:w-1/4 lg:px-4">
+                    <a href="" class="group">
+                        <div class="shadow-xl bg-white text-black
+                        hover:bg-orange-500 hover:text-white rounded-xl p-4">
+                                <!-- Icon -->
+                                <div class="w-10 h-10 shadow-lg bg-orange-500 group-hover:bg-white rounded-lg flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(0, 0, 0);">
+                                        <path class="fill-current text-white group-hover:text-orange-500" d="M7.08 11.25A4.84 4.84 0 0 1 8 9.05L4.43 5.49A9.88 9.88 0 0 0 2 11.25zM9.05 8a4.84 4.84 0 0 1 2.2-.91V2a9.88 9.88 0 0 0-5.76 2.43zm3.7-6v5A4.84 4.84 0 0 1 15 8l3.56-3.56A9.88 9.88 0 0 0 12.75 2zM8 15a4.84 4.84 0 0 1-.91-2.2H2a9.88 9.88 0 0 0 2.39 5.76zm3.25 1.92a4.84 4.84 0 0 1-2.2-.92l-3.56 3.57A9.88 9.88 0 0 0 11.25 22zM16 9.05a4.84 4.84 0 0 1 .91 2.2h5a9.88 9.88 0 0 0-2.39-5.76zM15 16a4.84 4.84 0 0 1-2.2.91v5a9.88 9.88 0 0 0 5.76-2.39zm1.92-3.25A4.84 4.84 0 0 1 16 15l3.56 3.56A9.88 9.88 0 0 0 22 12.75z"></path>
+                                    </svg>
+                                </div>
+                            <h3 class="mt-4 text-md font-bold md:text-lg lg:text-lg xl:text-lg">24 / 7 Tutor Availabilitity</h3>
+                            <p class="text-sm">Our tutors are always <br class="block"/> available to respond as quick <br class="block"/> as possible for you</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="w-1/2 px-2 mb-4 lg:w-1/4 lg:px-4">
+                    <a href="" class="group">
+                        <div class="shadow-xl bg-white text-black
+                        hover:bg-red-500 hover:text-white rounded-xl p-4">
+                                <!-- Icon -->
+                                <div class="w-10 h-10 shadow-lg bg-red-500 group-hover:bg-white rounded-lg flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(0, 0, 0);">
+                                        <path class="fill-current text-white group-hover:text-red-500" d="M7.08 11.25A4.84 4.84 0 0 1 8 9.05L4.43 5.49A9.88 9.88 0 0 0 2 11.25zM9.05 8a4.84 4.84 0 0 1 2.2-.91V2a9.88 9.88 0 0 0-5.76 2.43zm3.7-6v5A4.84 4.84 0 0 1 15 8l3.56-3.56A9.88 9.88 0 0 0 12.75 2zM8 15a4.84 4.84 0 0 1-.91-2.2H2a9.88 9.88 0 0 0 2.39 5.76zm3.25 1.92a4.84 4.84 0 0 1-2.2-.92l-3.56 3.57A9.88 9.88 0 0 0 11.25 22zM16 9.05a4.84 4.84 0 0 1 .91 2.2h5a9.88 9.88 0 0 0-2.39-5.76zM15 16a4.84 4.84 0 0 1-2.2.91v5a9.88 9.88 0 0 0 5.76-2.39zm1.92-3.25A4.84 4.84 0 0 1 16 15l3.56 3.56A9.88 9.88 0 0 0 22 12.75z"></path>
+                                    </svg>
+                                </div>
+                            <h3 class="mt-4 text-md font-bold md:text-lg lg:text-lg xl:text-lg">24 / 7 Tutor Availabilitity</h3>
+                            <p class="text-sm">Our tutors are always <br class="block"/> available to respond as quick <br class="block"/> as possible for you</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    
 </body>
 </html>
